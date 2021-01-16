@@ -14,12 +14,12 @@ export class App extends Component {
 
         <Footer />
 
-        <div className="copyright">&copy; Atomono {currentYear}</div>
+        <div className="copyright">&copy; Atomono Tech {currentYear}</div>
       </div>
     )
   }
 }
 
-let currentYear = new Date().getFullYear();
+const currentYear = new Date().getFullYear();
 
 export default App

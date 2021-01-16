@@ -2,8 +2,34 @@
   height: auto;
   width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f8faff;
+  font-size: 18px;
 }
 
 .copyright {
   text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 0.8em;
+}
+
+h6 {
+  font-size: 0.6em;
 }
