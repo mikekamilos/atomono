@@ -1,10 +1,38 @@
 .header {
     height: 60px;
     width: 100%;
-    background-color: #004080;
+    background-color: #220055;
     position: fixed;
+}
+
+.logo {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 2%;
+    background-image: url('../../assets/images/mew3.svg');
+    transition: 500ms;
+}
+
+.logo:hover {
+    cursor: pointer;
+    transform: rotate(270deg);
+    transition-duration: 1000ms;
 }
 
 .sharethis-inline-share-buttons {
     margin-top: 60px;
+}
+
+.st-btn:hover {
+    top: 2px;
+}
+
+@media only screen and (min-width: 640px) {
+    .sharethis-inline-share-buttons {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        justify-content: center;
+    }
 }

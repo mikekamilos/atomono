@@ -1,4 +1,9 @@
-.component {
+.app {
   height: auto;
   width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.copyright {
+  text-align: center;
 }

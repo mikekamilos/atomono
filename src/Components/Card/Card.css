@@ -1,0 +1,28 @@
+.card {
+    width: 420px;
+    height: 240px;
+    margin: 10px;
+    background-color: #7864ff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #8883;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.close {
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    margin: 5px;
+    margin-bottom: 50%;
+    border-radius: 5px;
+    padding: 2px;
+    color: #f8faff;
+}
+
+.close:hover {
+    cursor: pointer;
+    background-color: #fff8;
+}

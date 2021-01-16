@@ -1,5 +1,12 @@
 .main {
+    padding: 14vh 0 2vh 0;
     min-height: 92vh;
     height: auto;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background: url('../../assets/images/AdobeStock_288291399.jpeg') no-repeat center;
+    background-size: cover;
 }
