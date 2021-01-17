@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/atomono.com/static/css/main.8ccb09a2.chunk.css",
+    "main.css": "/atomono.com/static/css/main.616dd5dc.chunk.css",
     "main.js": "/atomono.com/static/js/main.71bfa3ff.chunk.js",
     "main.js.map": "/atomono.com/static/js/main.71bfa3ff.chunk.js.map",
     "runtime-main.js": "/atomono.com/static/js/runtime-main.de2cb37a.js",
@@ -8,7 +8,7 @@
     "static/js/2.18b51cef.chunk.js": "/atomono.com/static/js/2.18b51cef.chunk.js",
     "static/js/2.18b51cef.chunk.js.map": "/atomono.com/static/js/2.18b51cef.chunk.js.map",
     "index.html": "/atomono.com/index.html",
-    "static/css/main.8ccb09a2.chunk.css.map": "/atomono.com/static/css/main.8ccb09a2.chunk.css.map",
+    "static/css/main.616dd5dc.chunk.css.map": "/atomono.com/static/css/main.616dd5dc.chunk.css.map",
     "static/js/2.18b51cef.chunk.js.LICENSE.txt": "/atomono.com/static/js/2.18b51cef.chunk.js.LICENSE.txt",
     "static/media/Main.css": "/atomono.com/static/media/AdobeStock_288291399.db73acb0.jpeg",
     "static/media/Header.css": "/atomono.com/static/media/mew3.94c7f4d3.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.de2cb37a.js",
     "static/js/2.18b51cef.chunk.js",
-    "static/css/main.8ccb09a2.chunk.css",
+    "static/css/main.616dd5dc.chunk.css",
     "static/js/main.71bfa3ff.chunk.js"
   ]
 }
