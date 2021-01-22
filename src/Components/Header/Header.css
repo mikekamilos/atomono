@@ -27,17 +27,28 @@
 
 .sharethis-inline-share-buttons {
     margin-top: 60px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
 }
 
 .st-btn:hover {
     top: 2px;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (max-width: 640px) {
     .sharethis-inline-share-buttons {
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
-        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .logo:hover {
+        transform: none;
+    }
+
+    .logo:active {
+        transform: none;
     }
 }
