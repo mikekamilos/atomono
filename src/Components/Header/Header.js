@@ -6,7 +6,7 @@ export class Header extends Component {
     render() {
         return (
             <div className="header">
-                <div className="logo"></div>
+            <a className="logo" href="https://www.atomono.com/"></a>
                 <Navigator />
                 <div className="sharethis-inline-share-buttons"></div>
             </div>
