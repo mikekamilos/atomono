@@ -11,13 +11,18 @@
     height: 60px;
     margin-left: 2%;
     background-image: url('../../assets/images/mew3.svg');
-    transition: 500ms;
+    transition: 180ms;
 }
 
 .logo:hover {
     cursor: pointer;
     transform: rotate(270deg);
-    transition-duration: 1000ms;
+    transition-duration: 270ms;
+}
+
+.logo:active {
+    transform: rotate(360deg);
+    transition-duration: 90ms;
 }
 
 .sharethis-inline-share-buttons {
