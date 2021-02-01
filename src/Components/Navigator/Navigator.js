@@ -10,8 +10,6 @@ export class Navigator extends Component {
                 <div className="nav-item">Forum</div>
                 <div className="nav-item">Build</div>
                 <div className="nav-item">Store</div>
-
-                <div className="hamburger-menu">___/n___/n___</div>
             </div>
         )
     }

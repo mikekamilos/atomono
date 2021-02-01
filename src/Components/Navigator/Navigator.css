@@ -20,20 +20,12 @@
     background-color: #fff3;
 }
 
-.hamburger-menu {
-    display: none;
-}
-
-@media only screen and (max-width: 639px) {
+@media only screen and (max-width: 720px) {
     .navigator {
         display: none;
     }
 
     .nav-item {
         display: none;
-    }
-
-    .hamburger-menu {
-        display: show;
     }
 }
