@@ -10,3 +10,76 @@
     background: url('./AdobeStock_288291399.png') no-repeat center;
     background-size: cover;
 }
+
+.content  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5em;
+    margin-top: -35vh;
+    padding: 70px 20px 10px 20px;
+}
+
+.greeting h1 {
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.start {
+    display: flex;
+    margin-top: 10vh;
+}
+
+.start button {
+    width: 120px;
+    height: 60px;
+    background-color: #4329e8;
+    color: #f8faff;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border: 1px solid #d0e0f0;
+    position: relative;
+}
+
+.start button:active {
+    top: 2px;
+}
+
+.start button:hover {
+    background-color: #eaefff20;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+    .content {
+        width: 100%;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .greeting {
+        margin-top: -20vh;
+    }
+}
